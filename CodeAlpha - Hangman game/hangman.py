@@ -76,11 +76,11 @@ HANGMAN_STAGES = [
     """
 ]
 
-def play_hangman(score):
+def play_hangman(game_score):
     """ MAIN GAME LOOP FOR HANGMAN GAME
      
     Args:
-        score (int): The current score of the player.
+        game_score (dict): The current score of the player
     """
 
     # Pick a random secret word
@@ -138,19 +138,19 @@ def play_hangman(score):
             if all(letter in guessed_letters for letter in secret_word):
                 print(HANGMAN_STAGES[incorrect_guesses])
                 print(f"\n🎉 Congratulations! You guessed the secret word: '{secret_word}'!")
-                score["wins"] += 1
+                game_score["wins"] += 1
                 return
             
         else:
             print(f"❌ Sorry, '{guess}' is not in the word\n")
             incorrect_guesses += 1
 
-    else:
-        # Loss condition (lives hit 0)
-        print(HANGMAN_STAGES[incorrect_guesses])
-        print(f"\n💀 Game Over! You ran out of lives")
-        print(f"The correct word was: '{secret_word}'")
-        score["losses"] += 1
+    
+    # Loss condition (lives hit 0)
+    print(HANGMAN_STAGES[incorrect_guesses])
+    print("\n💀 Game Over! You ran out of lives")
+    print(f"The correct word was: '{secret_word}'")
+    game_score["losses"] += 1
 
 
 if __name__ == "__main__":

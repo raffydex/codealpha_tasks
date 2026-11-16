@@ -49,23 +49,17 @@ CodeAlpha - Basic Chatbot/
 
 ### Installation
 
-1. Clone the repository:
-
-```bash
+# 1. Clone the repository
 git clone https://github.com/raffydex/codealpha_tasks.git
-```
 
-2. Navigate to the Hangman directory:
+# 2. Navigate into the project folder
+cd codealpha_tasks
 
-```bash
-cd "codealpha_tasks/CodeAlpha - Hangman game"
-```
+# 3. Navigate into the Basic Chatbot folder
+cd "CodeAlpha - Basic Chatbot"
 
-3. Run the game:
-
-```bash
-python hangman.py
-```
+# 4. Run the chatbot
+python chatbot.py
 
 
 ## How to Use

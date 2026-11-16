@@ -48,14 +48,14 @@ CodeAlpha - Stock Portfolio Tracker/
 ├── README.md
 │
 └── screenshots/
-    ├── 01_welcome_screen.png
-    ├── 02_stock_selection.png
-    ├── 03_input_validation.png
-    ├── 04_duplicate_stock_update.png
-    ├── 05_final_portfolio.png
-    ├── 06_save_options.png
-    ├── 07_txt_export.png
-    └── 08_csv_export.png
+    ├── welcome.png
+    ├── stock-selection.png
+    ├── input-validation.png
+    ├── duplicate-stock-update.png
+    ├── final-portfolio.png
+    ├── save-options.png
+    ├── txt-export.png
+    └── csv-export.png
 ```
 
 ## 🚀 Getting Started
@@ -68,7 +68,9 @@ CodeAlpha - Stock Portfolio Tracker/
 
 No external Python libraries are required.
 
+### Project Structure
 
+```text
 CodeAlpha - Stock Portfolio Tracker/
 │
 ├── stock_portfolio_tracker.py
@@ -83,7 +85,7 @@ CodeAlpha - Stock Portfolio Tracker/
     ├── save-options.png
     ├── txt-export.png
     └── csv-export.png
-
+```
 
 ## 💻 How to Use
 
@@ -207,12 +209,12 @@ This project was developed as part of my practical learning experience during th
 
 ## 👨‍💻 Author
 
-**RAFFYDEX**
+**ABDRAFIU ABDMOJEED AYOYINKA**
 
 GitHub: [@raffydex](https://github.com/raffydex)
 
 ---
 
-⭐ If you find this project useful, feel free to explore the repository and provide feedback.
+⭐ If you find this project useful, feel free to explore the repository and provide feedback
 
-**Built with Python and a commitment to continuous learning.**
+**Built with Python and a commitment to continuous learning**

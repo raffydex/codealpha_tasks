@@ -2,10 +2,10 @@
 
 **A beginner-friendly Hangman game built with Python as part of the CodeAlpha Python Programming Internship.**
 
-**Author:** RAFFYDEX  
+**Author:** ABDRAFIU ABDMOJEED AYOYINKA
 **Editor:** Visual Studio Code  
 **Main File:** `hangman.py`  
-**GitHub Repository:** [CodeAlpha Hangman Game](https://github.com/raffydex/CodeAlpha_Hangman_Game)
+**GitHub Repository:** [CodeAlpha Tasks](https://github.com/raffydex/codealpha_tasks)
 
 ## 1. Introduction
 
@@ -123,6 +123,7 @@ CodeAlpha_Hangman_Game/
 ### Prerequisites
 
 - Python 3 installed on your computer.
+- Git installed on your computer.
 - A code editor or terminal.
 
 ### Steps
@@ -130,16 +131,22 @@ CodeAlpha_Hangman_Game/
 **Step 1: Clone the repository**
 
 ```bash
-git clone https://github.com/raffydex/CodeAlpha_Hangman_Game.git
+git clone https://github.com/raffydex/codealpha_tasks.git
 ```
 
-**Step 2: Navigate into the project directory**
+**Step 2: Navigate into the repository**
 
 ```bash
-cd CodeAlpha_Hangman_Game
+cd codealpha_tasks
 ```
 
-**Step 3: Run the program**
+**Step 3: Navigate into the Hangman project folder**
+
+```bash
+cd "CodeAlpha - Hangman game"
+```
+
+**Step 4: Run the program**
 
 ```bash
 python hangman.py
@@ -233,6 +240,6 @@ These are future ideas and are not part of the current assignment version.
 
 **Project:** CodeAlpha Hangman Game  
 **Language:** Python  
-**Author:** RAFFYDEX
+**Author:** ABDRAFIU ABDMOJEED AYOYINKA
 
 *Built as a learning project, with a focus on understanding Python fundamentals and improving problem-solving skills.*
