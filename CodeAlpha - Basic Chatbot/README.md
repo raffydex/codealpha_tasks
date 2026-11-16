@@ -26,12 +26,12 @@ The chatbot interacts with users through predefined responses, recognises common
 ## Project Structure
 
 ```text
-Basic_Chatbot/
+CodeAlpha - Basic Chatbot/
 │
 ├── chatbot.py
 ├── README.md
 │
-└── screenshots/
+└── images/
     ├── welcome.png
     ├── conversation.png
     ├── name-recognition.png
@@ -46,25 +46,27 @@ Basic_Chatbot/
 - Python 3 installed on your computer.
 - A code editor or terminal.
 
+
 ### Installation
 
 1. Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/raffydex/codealpha_tasks.git
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the Hangman directory:
 
 ```bash
-cd codealpha_tasks/Basic_Chatbot
+cd "codealpha_tasks/CodeAlpha - Hangman game"
 ```
 
-3. Run the chatbot:
+3. Run the game:
 
 ```bash
-python chatbot.py
+python hangman.py
 ```
+
 
 ## How to Use
 
@@ -126,4 +128,4 @@ Python Programming Intern — CodeAlpha
 
 ---
 
-*Built as part of the CodeAlpha Python Programming Internship.*
+*Built as part of the CodeAlpha Python Programming Internship*

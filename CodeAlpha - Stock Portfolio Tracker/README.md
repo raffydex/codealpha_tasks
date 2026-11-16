@@ -43,7 +43,7 @@ The application also supports exporting portfolio records into text and CSV file
 ```text
 CodeAlpha - Stock Portfolio Tracker/
 │
-├── stock_portfolio.py
+├── stock_portfolio_tracker.py
 │
 ├── README.md
 │
@@ -68,31 +68,22 @@ CodeAlpha - Stock Portfolio Tracker/
 
 No external Python libraries are required.
 
-### Installation
 
-**1. Clone the repository**
+CodeAlpha - Stock Portfolio Tracker/
+│
+├── stock_portfolio_tracker.py
+├── README.md
+│
+└── screenshots/
+    ├── welcome.png
+    ├── stock-selection.png
+    ├── input-validation.png
+    ├── duplicate-stock-update.png
+    ├── final-portfolio.png
+    ├── save-options.png
+    ├── txt-export.png
+    └── csv-export.png
 
-```bash
-git clone https://github.com/raffydex/codealpha_tasks.git
-```
-
-**2. Navigate to the project directory**
-
-```bash
-cd codealpha_tasks
-```
-
-**3. Navigate to the Stock Portfolio Tracker folder**
-
-```bash
-cd "CodeAlpha - Stock Portfolio Tracker"
-```
-
-**4. Run the application**
-
-```bash
-python stock_portfolio.py
-```
 
 ## 💻 How to Use
 
